@@ -49,11 +49,11 @@ function hellTime() {
 
 	if (numberOfHells == 30) {
 		resultBox.style.transform = "scale(1)";
-		resultInfo.innerHTML = "I do need to get a life, But Hells Taked it";
+		resultInfo.innerHTML = "I do need to get a life, But Hells Taked it (Hence, You Lost)";
 		clearInterval(timer);
 	} else if (score == 30) {
 		resultBox.style.transform = "scale(1)";
-		resultInfo.innerHTML = "What doesn't kill me, Well Nothing!";
+		resultInfo.innerHTML = "What doesn't kill me, Well Nothing! (Hence, You Won Buddy";
 		clearInterval(timer);
 	}
 	
