@@ -14,7 +14,7 @@ let numberOfHells = 0;
 
 
 window.onload = function() {
-	//alert("Score 30 Points By Click On The Hells, You Will Lost The Game If Hells Are Able TO increase To 30")
+	alert("Score 30 Points By Click On The Hells, You Will Lost The Game If Hells Are Able TO increase To 30")
 	timer = setInterval(hellTime, 550)
 }
 
